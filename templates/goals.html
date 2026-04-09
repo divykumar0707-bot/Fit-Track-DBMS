@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="mb-4">🎯 My Goals</h2>
+
+    <!-- Set New Goal Form -->
+    <div class="card mb-5 shadow">
+        <div class="card-header bg-success text-white">
+            <h5>Set New Goal</h5>
+        </div>
+        <div class="card-body">
+            <form method="POST" class="row g-3">
+                <div class="col-md-4">
+                    <label class="form-label">Goal Type</label>
+                    <input type="text" name="goal_type" class="form-control" required 
+                           placeholder="e.g. lose_weight, build_muscle">
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label">Target Value</label>
+                    <input type="number" step="0.1" name="target_value" class="form-control" required>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label">Target Date (optional)</label>
+                    <input type="date" name="target_date" class="form-control">
+                </div>
+                <div class="col-md-2 d-flex align-items-end">
+                    <button type="submit" class="btn btn-success w-100">Set Goal</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Goals List -->
+    <h5 class="mb-3">Your Goals</h5>
+    {% if goals %}
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>Goal Type</th>
+                    <th>Target</th>
+                    <th>Target Date</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for goal in goals %}
+                <tr>
+                    <td>{{ goal['goal_type'] | replace("_", " ") | title }}</td>
+                    <td>{{ goal['target_value'] }}</td>
+                    <td>{{ goal['target_date'] or '-' }}</td>
+                    <td>
+                        <span class="badge bg-{{ 'success' if goal['is_active'] else 'secondary' }}">
+                            {{ 'Active' if goal['is_active'] else 'Inactive' }}
+                        </span>
+                    </td>
+                    <td>
+                        <a href="{{ url_for('delete_goal', goal_id=goal['goal_id']) }}" 
+                           class="btn btn-sm btn-danger"
+                           onclick="return confirm('Delete this goal?')">Delete</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+    <div class="alert alert-info">
+        No goals set yet.
+    </div>
+    {% endif %}
+
+    <div class="mt-4">
+        <a href="{{ url_for('index') }}" class="btn btn-secondary">← Back to Dashboard</a>
+    </div>
+</div>
+{% endblock %}

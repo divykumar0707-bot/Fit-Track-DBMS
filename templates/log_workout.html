@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h4>📝 Log a New Workout</h4>
+                </div>
+                <div class="card-body">
+                    <form method="POST">
+                        <div class="mb-3">
+                            <label class="form-label">Workout Name / Activity</label>
+                            <input type="text" name="activity_type" class="form-control" required 
+                                   placeholder="e.g. Chest Day, Running, Leg Day">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label class="form-label">Duration (minutes)</label>
+                            <input type="number" name="duration_minutes" class="form-control" required min="1">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label class="form-label">Calories Burned (optional)</label>
+                            <input type="number" name="calories_burned" class="form-control" min="0">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label class="form-label">Notes (optional)</label>
+                            <textarea name="notes" class="form-control" rows="3" 
+                                      placeholder="e.g. Increased bench press to 60kg"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary w-100">Log Workout</button>
+                    </form>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="{{ url_for('index') }}" class="btn btn-secondary">Back to Dashboard</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
