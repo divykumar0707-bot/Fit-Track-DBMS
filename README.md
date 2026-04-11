@@ -2,14 +2,14 @@
 
 A comprehensive console and web-based Fitness Tracking Application developed for DBMS Laboratory. It enables users to register, login, log workouts, view history, and manage fitness goals with a clean and responsive interface.
 
-![FitTrack Pro](https://img.shields.io/badge/FitTrack_Pro-Fitness_Tracker-blue)
-![Python](https://img.shields.io/badge/Python-3.12+-3776AB?logo=python)
-![Flask](https://img.shields.io/badge/Flask-3.0+-000000?logo=flask)
-![SQLite](https://img.shields.io/badge/SQLite-3.45+-003B57?logo=sqlite)
+-[FitTrack Pro](https://img.shields.io/badge/FitTrack_Pro-Fitness_Tracker-blue)
+-[Python](https://img.shields.io/badge/Python-3.12+-3776AB?logo=python)
+-[Flask](https://img.shields.io/badge/Flask-3.0+-000000?logo=flask)
+-[SQLite](https://img.shields.io/badge/SQLite-3.45+-003B57?logo=sqlite)
 
 # Project Members
-1. Divy Kumar              --->      RA2411030030066  
-2. Sudhanshu Singh Chauhan --->      RA2411030030074
+1. xxx --->      RAxxxxxxxxxx  
+2. xxx --->      RAxxxxxxxxxx
 
 ## 📁 Project Documents
 
@@ -74,27 +74,25 @@ A comprehensive console and web-based Fitness Tracking Application developed for
 - Git
 
 ### Verify Installation
-'''bash
+
+```bash
 python3 --version
 pip --version
 git --version
-
-### Installation
+💻 Installation
 Step 1: Clone the Repository
-    Bashgit clone https://github.com/divykumar0707-bot/Fit-Track-DBMS.git
-    cd Fit-Track-DBMS
+Bashgit clone https://github.com/divykumar0707-bot/Fit-Track-DBMS.git
+cd Fit-Track-DBMS
 Step 2: Install Dependencies
-    Bashpip install flask
-
-### Running the Application
+Bashpip install flask
+🚀 Running the Application
 Console Version
-    Bashpython3 main.py
+Bashpython3 main.py
 Web Version (Recommended for Demo)
-    Bashpython3 app.py
+Bashpython3 app.py
 Then open your browser and go to:
-    http://127.0.0.1:5000
-
-### 📁 Project Structure
+http://127.0.0.1:5000
+📁 Project Structure
 textFit-Track-DBMS/
 ├── app.py                    # Flask web application
 ├── main.py                   # Console version
@@ -105,7 +103,7 @@ textFit-Track-DBMS/
 ├── templates/                # HTML templates
 └── fittrack.db               # SQLite database
 
-### 📊 DBMS Concepts Demonstrated
+📊 DBMS Concepts Demonstrated
 
 Relational Database Design (3NF)
 Primary Keys, Foreign Keys & Referential Integrity
@@ -113,7 +111,7 @@ CRUD Operations (Create & Read)
 Parameterized Queries (SQL Injection Prevention)
 Modular Code Architecture
 
-### 🔮 Future Enhancements
+🔮 Future Enhancements
 
 Delete workout and goal functionality
 Automatic calorie estimation
