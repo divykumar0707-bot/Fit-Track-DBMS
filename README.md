@@ -8,8 +8,8 @@ A comprehensive console and web-based Fitness Tracking Application developed for
 -[SQLite](https://img.shields.io/badge/SQLite-3.45+-003B57?logo=sqlite)
 
 # Project Members
-1. xxx --->      RAxxxxxxxxxx  
-2. xxx --->      RAxxxxxxxxxx
+1. Divy Kumar              --->      RA2411030030066
+2. Sudhanshu Singh Chauhan --->      RA2411030030074
 
 ## 📁 Project Documents
 
@@ -18,10 +18,10 @@ A comprehensive console and web-based Fitness Tracking Application developed for
 | 1  | Project Code                                | [View](#) |
 | 2  | Project Report                              | [View](#) |
 | 3  | Final PPT                                   | [View](#) |
-| 4  | RAxxxxxxxxxx_Certificate                    | [View](#) |
-| 5  | RAxxxxxxxxxx_Certificate                    | [View](#) |
-| 6  | RAxxxxxxxxxx_CourseReport                   | [View](#) |
-| 7  | RAxxxxxxxxxx_CourseReport                   | [View](#) |
+| 4  | RA2411030030066_Certificate                 | [View](#) |
+| 5  | RA2411030030074_Certificate                 | [View](#) |
+| 6  | RA2411030030066_CourseReport                | [View](#) |
+| 7  | RA2411030030074_CourseReport                | [View](#) |
 
 ## 📋 Table of Contents
 
@@ -73,26 +73,22 @@ A comprehensive console and web-based Fitness Tracking Application developed for
 - pip (Python package manager)
 - Git
 
-### Verify Installation
+### 💻 Installation
+- Step 1: Clone the Repository
+    Bashgit clone https://github.com/divykumar0707-bot/Fit-Track-DBMS.git
+    cd Fit-Track-DBMS
+- Step 2: Install Dependencies
+    Bashpip install flask
 
-```bash
-python3 --version
-pip --version
-git --version
-💻 Installation
-Step 1: Clone the Repository
-Bashgit clone https://github.com/divykumar0707-bot/Fit-Track-DBMS.git
-cd Fit-Track-DBMS
-Step 2: Install Dependencies
-Bashpip install flask
-🚀 Running the Application
-Console Version
-Bashpython3 main.py
-Web Version (Recommended for Demo)
-Bashpython3 app.py
-Then open your browser and go to:
-http://127.0.0.1:5000
-📁 Project Structure
+
+## 🚀 Running the Application
+- Console Version
+    Bashpython3 main.py
+- Web Version (Recommended for Demo)
+    Bashpython3 app.py
+    Then open your browser and go to:
+        http://127.0.0.1:5000
+### 📁 Project Structure
 textFit-Track-DBMS/
 ├── app.py                    # Flask web application
 ├── main.py                   # Console version
@@ -103,7 +99,7 @@ textFit-Track-DBMS/
 ├── templates/                # HTML templates
 └── fittrack.db               # SQLite database
 
-📊 DBMS Concepts Demonstrated
+## 📊 DBMS Concepts Demonstrated
 
 Relational Database Design (3NF)
 Primary Keys, Foreign Keys & Referential Integrity
@@ -111,7 +107,7 @@ CRUD Operations (Create & Read)
 Parameterized Queries (SQL Injection Prevention)
 Modular Code Architecture
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 Delete workout and goal functionality
 Automatic calorie estimation
