@@ -101,15 +101,15 @@ textFit-Track-DBMS/
 
 ## 📊 DBMS Concepts Demonstrated
 
-Relational Database Design (3NF)
-Primary Keys, Foreign Keys & Referential Integrity
-CRUD Operations (Create & Read)
-Parameterized Queries (SQL Injection Prevention)
-Modular Code Architecture
+- Relational Database Design (3NF)
+- Primary Keys, Foreign Keys & Referential Integrity
+- CRUD Operations (Create & Read)
+- Parameterized Queries (SQL Injection Prevention)
+- Modular Code Architecture
 
 ## 🔮 Future Enhancements
 
-Delete workout and goal functionality
-Automatic calorie estimation
-Progress tracking with charts
-Export data to CSV
+- Delete workout and goal functionality
+- Automatic calorie estimation
+- Progress tracking with charts
+- Export data to CSV
