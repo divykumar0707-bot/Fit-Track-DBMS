@@ -88,17 +88,30 @@ A comprehensive console and web-based Fitness Tracking Application developed for
     Bashpython3 app.py
     Then open your browser and go to:
         http://127.0.0.1:5000
-### 📁 Project Structure
-textFit-Track-DBMS/
+## 📁 Project Structure
+
+```bash
+Fit-Track-DBMS/
 ├── app.py                    # Flask web application
 ├── main.py                   # Console version
 ├── database.py               # Database operations
 ├── auth.py                   # Authentication
 ├── workouts.py               # Workout features
 ├── goals.py                  # Goal features
-├── templates/                # HTML templates
-└── fittrack.db               # SQLite database
-
+├── templates/                # HTML templates for web version
+│   ├── base.html
+│   ├── login.html
+│   ├── register.html
+│   ├── dashboard.html
+│   ├── log_workout.html
+│   ├── workouts.html
+│   └── goals.html
+├── documents/                # Project documents (Certificate, Reports, etc.)
+│   ├── certificate.pdf
+│   ├── course_report.pdf
+│   └── project_report.pdf
+└── fittrack.db               # SQLite database file
+```
 ## 📊 DBMS Concepts Demonstrated
 
 - Relational Database Design (3NF)
