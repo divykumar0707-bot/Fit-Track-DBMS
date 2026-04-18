@@ -17,7 +17,7 @@ A comprehensive console and web-based Fitness Tracking Application developed for
 |----|----------------------------------------------|------|
 | 1  | Project Code                                | [View on GitHub](https://github.com/divykumar0707-bot/Fit-Track-DBMS?tab=readme-ov-file) |
 | 2  | Project Report                              | [Download PDF](documents/projectreport.pdf) |
-| 3  | Final PPT                                   | [view PPT](documents/dbmsfinalppt.pdf) |
+| 3  | Final PPT                                   | [Download PPT](documents/dbmsfinalppt.pdf) |
 | 4  | RA2411030030066_Certificate                 | [Download Certificate](documents/divydbmscert.pdf) |
 | 5  | RA2411030030074_Certificate                 | [Download Certificate](documents/sudhanshucoursecert.jpeg) |
 | 6  | RA2411030030066_CourseReport                | [Download Course Report](dbmscoursereportdivy.pdf) |
